@@ -144,10 +144,10 @@ body {
 .profile-image {
   width: 150px;
   border-radius: 50%;
-  /*animation: bounce 1s infinite alternate; */
+  animation: bounce 1s infinite alternate; 
 }
 
-/*@keyframes bounce {
+@keyframes bounce {
   from {
     transform: translateY(0px);
   }
@@ -155,7 +155,7 @@ body {
   to {
     transform: translateY(-10px);
   }
-}*/
+}
 
 .division {
   width: 100%;
