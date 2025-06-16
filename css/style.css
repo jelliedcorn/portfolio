@@ -109,6 +109,14 @@ body {
 
 }
 
+#logo img {
+  width: auto;
+  max-width: 850px;
+  max-height: 70px;
+  height: auto;
+  display: block;
+}
+
 .navbar .btn {
   margin-right: 1.5rem;
 }
