@@ -11,6 +11,7 @@
   /* Colors */
   --primary-color: #ffcd42;
   --secondary-color: #ffd35c;
+  --bgmenu-color: #f4f4f4;
   --bg-primary: #ffffff;
   --text-color: #222222;
   --text-color-two: #ffffff;
@@ -34,6 +35,7 @@
 [data-theme="dark"] {
   --primary-color: #ffcd42;
   --secondary-color: #ffd35c;
+  --bgmenu-color: #f4f4f4;
   --bg-primary: #000000;
   --text-color: #ffffff;
   --text-color-two: #222222;
@@ -79,7 +81,7 @@ body {
   left: 0;
   right: 0;
   z-index: 20;
-  background: var(--bg-primary);
+  background: var(--bgmenu-color);
 }
 
 .navbar .container {
@@ -94,7 +96,7 @@ body {
 .navbar .nav-menu {
   display: flex;
   align-items: center;
-  background: var(--bg-primary);
+  background: var(--bgmenu-color);
 }
 
 .navbar .nav-link {
@@ -111,7 +113,7 @@ body {
 
 #logo img {
   width: auto;
-  max-width: 850px;
+  max-width: 800px;
   max-height: 70px;
   height: auto;
   display: block;
