@@ -111,6 +111,7 @@ h2::selection {
   border-radius: 5px;
   transition: 0.4s ease-in-out;
   cursor: pointer;
+  position: relative;
 }
 
 .card a {
@@ -130,6 +131,7 @@ h2::selection {
 
 .card:hover .project-info {
   opacity: 1;
+  transform: translateY(0);
 }
 
 /* Project Images */
