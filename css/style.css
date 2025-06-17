@@ -9,15 +9,16 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
-  --bgmenu-color: #f4f4f4;
-  --bg-primary: #ffffff;
-  --text-color: #222222;
-  --text-color-two: #ffffff;
-  --bg-secondary: #000000;
-  --card-background: #f4f4f4;
-  --bg-secondary-two: #111111;
+  --primary-color: #372F37; /* button resume color */
+  --secondary-color: #ffd35c; /* button resume hover color */
+  --bgmenu-color: #cdc6cd; /* top color */
+  --bg-primary: #ffffff; /* background */
+  --text-color: #222222; /* text na stronie */
+  --text-color-two: #FBFEF9; /* dodatkowy color */
+  --bg-secondary: #000000; /* button kolory -> connect with me, download cv */
+  --card-background: #f4f4f4; /* pasek tzw splitter */
+  --bg-secondary-two: #111111; /* nie używany chyba */
+  --btn-primary-text: #FBFEF9;
 
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 
@@ -33,15 +34,16 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
-  --bgmenu-color: #f4f4f4;
-  --bg-primary: #000000;
-  --text-color: #ffffff;
-  --text-color-two: #222222;
-  --bg-secondary: #ffffff;
-  --card-background: #111111;
-  --bg-secondary-two: #f4f4f4;
+  --primary-color: #372F37; /* button resume color */
+  --secondary-color: #ffd35c; /* button resume hover color */
+  --bgmenu-color: #cdc6cd; /* top menu color */
+  --bg-primary: #000000; /* background */
+  --text-color: #FBFEF9; /* text na stronie */
+  --text-color-two: #222222; /* dodatkowy color */
+  --bg-secondary: #ffffff; /* button kolory -> connect with me, download cv */
+  --card-background: #f4f4f4; /* pasek tzw splitter */
+  --bg-secondary-two: #f4f4f4; /* nie używany chyba */
+  --btn-primary-text: #FBFEF9; /* jasny tekst w dark mode */
   --shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
 }
 
