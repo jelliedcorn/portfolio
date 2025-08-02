@@ -116,7 +116,13 @@ h2::selection {
   transition: 0.4s ease-in-out;
   cursor: pointer;
   position: relative;
+
+  /* ✨ Subtelny glow */
+  box-shadow:
+    0 0 8px rgba(255, 255, 255, 0.05),
+    0 0 16px rgba(130, 112, 129, 0.07);
 }
+
 
 .card a {
   color: #ffffff;
@@ -127,6 +133,7 @@ h2::selection {
 
 .card a:hover {
   color: var(--primary-color);
+  
 }
 
 .card:hover {

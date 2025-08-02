@@ -9,9 +9,9 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #372F37; /* button resume color */
+  --primary-color: #827081; /* button resume color */
   --secondary-color: #ffd35c; /* button resume hover color */
-  --bgmenu-color: #cdc6cd; /* top color */
+  --bgmenu-color: #dddddd; /* top color */
   --bg-primary: #ffffff; /* background */
   --text-color: #222222; /* text na stronie */
   --text-color-two: #FBFEF9; /* dodatkowy color */
@@ -34,9 +34,9 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #372F37; /* button resume color */
+  --primary-color: #827081; /* button resume color */
   --secondary-color: #ffd35c; /* button resume hover color */
-  --bgmenu-color: #cdc6cd; /* top menu color */
+  --bgmenu-color: #404040; /* top menu color */
   --bg-primary: #000000; /* background */
   --text-color: #FBFEF9; /* text na stronie */
   --text-color-two: #222222; /* dodatkowy color */
@@ -369,4 +369,41 @@ body {
   display: inline-block;
   transition: opacity 0.3s ease-in-out;
   filter: drop-shadow(0 1px 1px rgba(0,0,0,0.4));
+}
+
+.learning-highlight {
+  background-color: var(--bgmenu-color);
+  color: var(--text-color);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem auto;
+  max-width: 720px;
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.5;
+
+  /* ✨ Uniwersalny glow */
+  box-shadow:
+    0 0 8px rgba(255, 255, 255, 0.06),
+    0 0 16px rgba(130, 112, 129, 0.1);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.06);
+}
+
+.learning-highlight strong {
+  color: var(--primary-color);
+  text-shadow: 0 0 6px rgba(255, 211, 92, 0.2);
+}
+
+
+.cv-link-qa {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.cv-link-qa .btn {
+  font-size: 0.85rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  margin-bottom: 0.5rem
 }
